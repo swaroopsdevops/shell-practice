@@ -7,5 +7,6 @@ then
     echo "ERROR:: You can't  install without root user"
 else
     echo "Approved"
+fi
 
-dnf install mysql -y
+#dnf install mysql -y
