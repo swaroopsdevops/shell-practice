@@ -10,7 +10,7 @@ else
     echo "Approved"
 fi
 
-dnf install gfgfgggfgg -y
+dnf install mysql -y
 
 if [ $? -eq 0 ]
 then
