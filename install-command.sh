@@ -1,12 +1,12 @@
 #!/bin/bash
 
-USER=$(id -u)
+USERID=$(id -u)
 
-if[ $USER -ne 0 ]
+if [ $USERID -ne 0 ]
 then
-    echo "ERROR:: You can't  install without root user"
+    echo "ERROR:: You cant  install without root user"
 else
     echo "Approved"
 fi
 
-#dnf install mysql -y
+dnf install mysql -y
