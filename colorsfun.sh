@@ -9,7 +9,7 @@ if [ $USERID -ne 0 ]
 then
     echo -e "$R ERROR:: Please run this script with root access $N"
 else
-    echo "APPROVED: You are running this script with root access"
+    echo -e "$G APPROVED: You are running this script with root access $N"
 fi
 
 VALIDATE()
